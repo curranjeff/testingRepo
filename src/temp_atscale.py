@@ -13,7 +13,7 @@ class User:
     self.name = name
     self.age = age
     
-  def introduceSelf(self):
+  def introduce_Self(self):
     """give a quick introduction
 
     Returns:
@@ -22,7 +22,7 @@ class User:
     return 'My name is ' + self.name
 
   
-  def addAge(self, years:int):
+  def add_Age(self, years:int):
     """add the given years to the user's age
 
     Args:
