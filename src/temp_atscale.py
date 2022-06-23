@@ -32,3 +32,7 @@ class User:
         int: the user's age after given years
     """
     return self.age +  years
+
+
+  def how_Old(self):
+    return f'I am {str(self.age)} years old'
